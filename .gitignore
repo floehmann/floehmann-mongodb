@@ -1,0 +1,8 @@
+.DS_STORE
+.vagrant
+.git
+*.box
+packer_cache
+*.log
+output-virtualbox-iso
+
