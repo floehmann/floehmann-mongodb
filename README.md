@@ -36,6 +36,7 @@ docker inspect $(docker ps | grep "floehmann/mongodb" | awk '{print $1}') | grep
 mongo --port <port you get from `docker ps`> --host <external ip of container>
 
 mongo --port 27017 --host 172.17.0.2
+```
 
 # load up mongo
 
