@@ -24,7 +24,6 @@ RUN apt-get install mongodb-10gen
 # Create the MongoDB data directory
 RUN mkdir -p /data/db
 
-
 # Expose mongo port
 EXPOSE 27017
 
